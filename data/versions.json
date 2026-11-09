@@ -1,0 +1,650 @@
+{
+  "official": "https://store.steampowered.com/app/322170/Geometry_Dash/",
+  "versions": [
+    {
+      "slug": "1-0",
+      "label": "1.0",
+      "name": "The original release",
+      "kind": "Main release",
+      "date": "Aug 13, 2013",
+      "iso": "2013-08-13",
+      "year": "2013",
+      "era": "1.x era",
+      "summary": "The launch build: seven levels, two forms and the first level editor. Every version below started here.",
+      "context": "The first public build set the template: a square that jumps, a ship that flies, and a level editor that turns players into creators.",
+      "facts": [
+        ["Levels", "Stereo Madness → Jumper (7)"],
+        ["Forms", "Cube and ship"],
+        ["Editor", "Built-in editor and online levels"]
+      ],
+      "tags": ["Launch", "Cube", "Ship"],
+      "notes": [
+        "Seven official levels, from Stereo Madness to Jumper.",
+        "Cube and ship forms across seven official levels.",
+        "A built-in level editor and online level sharing.",
+        "Released for iOS and Android on 13 August 2013."
+      ],
+      "platform": "iOS, Android",
+      "levels": "Stereo Madness → Jumper",
+      "forms": "Cube, ship",
+      "arcade": {
+        "name": "Launch run",
+        "tagline": "Seven levels, two forms, one place to start. Clear the line to log a time.",
+        "difficulty": "Easy",
+        "speed": 330,
+        "gapMin": 300,
+        "gapMax": 450,
+        "length": 5400,
+        "seed": 10,
+        "accent": "#f6f1e3"
+      }
+    },
+    {
+      "slug": "1-1",
+      "label": "1.1",
+      "name": "Time Machine & mirror mode",
+      "kind": "Main release",
+      "date": "Sep 14, 2013",
+      "iso": "2013-09-14",
+      "year": "2013",
+      "era": "1.x era",
+      "summary": "The first major update added Time Machine and flipped the screen with the mirror portal. Players could also comment on and dislike user levels.",
+      "context": "Mirror mode was the headline mechanic, but comments and dislikes turned the level browser into a community.",
+      "facts": [
+        ["Level", "Time Machine"],
+        ["Mechanic", "Mirror portal"],
+        ["Social", "Comments and dislikes"]
+      ],
+      "tags": ["Mirror", "Comments"],
+      "notes": [
+        "Time Machine added as the eighth official level.",
+        "The mirror portal flips the camera horizontally.",
+        "Level comments and dislikes added to the online browser."
+      ],
+      "platform": "iOS, Android",
+      "levels": "Time Machine",
+      "forms": "Cube, ship",
+      "arcade": {
+        "name": "Mirror run",
+        "tagline": "The first update is a change of direction. Keep the cube moving and clear the line.",
+        "difficulty": "Easy",
+        "speed": 338,
+        "gapMin": 300,
+        "gapMax": 440,
+        "length": 5500,
+        "seed": 11,
+        "accent": "#e8d9b0"
+      }
+    },
+    {
+      "slug": "1-2",
+      "label": "1.2",
+      "name": "Cycles & the ball",
+      "kind": "Main release",
+      "date": "Oct 21, 2013",
+      "iso": "2013-10-21",
+      "year": "2013",
+      "era": "1.x era",
+      "summary": "The ball form arrived, adding a gravity-swapping rhythm to the game, along with a new level and two cubes for the icon kit.",
+      "context": "The ball added a second rhythm: tap to swap gravity and keep the run alive.",
+      "facts": [
+        ["Level", "Cycles"],
+        ["Form", "Ball"],
+        ["Icons", "2 new cubes"]
+      ],
+      "tags": ["Ball", "Icons"],
+      "notes": [
+        "Cycles added as the ninth official level.",
+        "The ball form introduced gravity-flip controls.",
+        "Two new cube icons added to the icon kit."
+      ],
+      "platform": "iOS, Android",
+      "levels": "Cycles",
+      "forms": "Cube, ship, ball",
+      "arcade": {
+        "name": "Gravity run",
+        "tagline": "Tap the ceiling, land on the floor, repeat. A one-button course for the ball era.",
+        "difficulty": "Easy",
+        "speed": 346,
+        "gapMin": 300,
+        "gapMax": 430,
+        "length": 5600,
+        "seed": 12,
+        "accent": "#d9c28a"
+      }
+    },
+    {
+      "slug": "1-3",
+      "label": "1.3",
+      "name": "xStep & blue orbs",
+      "kind": "Main release",
+      "date": "Nov 20, 2013",
+      "iso": "2013-11-20",
+      "year": "2013",
+      "era": "1.x era",
+      "summary": "Blue jump orbs and pads gave creators a new way to chain jumps mid-air. xStep showed off what the editor could do.",
+      "context": "Blue orbs and pads gave creators a way to chain jumps in mid-air instead of relying on the ground.",
+      "facts": [
+        ["Level", "xStep"],
+        ["Objects", "Blue orb and blue pad"],
+        ["Editor", "New decorations and effects"]
+      ],
+      "tags": ["Orbs", "Pads"],
+      "notes": [
+        "xStep added as the tenth official level.",
+        "Blue jump orbs and blue pads added to the editor.",
+        "New decorations and effects for user levels."
+      ],
+      "platform": "iOS, Android",
+      "levels": "xStep",
+      "forms": "Cube, ship, ball",
+      "arcade": {
+        "name": "Mid-air run",
+        "tagline": "A course for chaining jumps. One button, no orbs, no excuses.",
+        "difficulty": "Easy",
+        "speed": 352,
+        "gapMin": 295,
+        "gapMax": 425,
+        "length": 5700,
+        "seed": 13,
+        "accent": "#cbb27a"
+      }
+    },
+    {
+      "slug": "1-4",
+      "label": "1.4",
+      "name": "Clutterfunk & size portals",
+      "kind": "Main release",
+      "date": "Nov 26, 2013",
+      "iso": "2013-11-26",
+      "year": "2013",
+      "era": "1.x era",
+      "summary": "Mini and big portals let players shrink or grow mid-level for the first time, and ship icons gained proper two-tone colouring.",
+      "context": "Size portals changed the scale of a level, letting one screen hold a tiny cube or a giant ship.",
+      "facts": [
+        ["Level", "Clutterfunk"],
+        ["Mechanic", "Mini and big portals"],
+        ["Icons", "4 new ships"]
+      ],
+      "tags": ["Mini mode", "Ships"],
+      "notes": [
+        "Clutterfunk added as the eleventh official level.",
+        "Mini and big portals change the player's size mid-level.",
+        "Four new ship icons and two-tone ship colouring."
+      ],
+      "platform": "iOS, Android",
+      "levels": "Clutterfunk",
+      "forms": "Cube, ship, ball",
+      "arcade": {
+        "name": "Scale run",
+        "tagline": "A compact course built around close timing. Clear the line to log a time.",
+        "difficulty": "Normal",
+        "speed": 358,
+        "gapMin": 295,
+        "gapMax": 420,
+        "length": 5800,
+        "seed": 14,
+        "accent": "#f0c96e"
+      }
+    },
+    {
+      "slug": "1-5",
+      "label": "1.5",
+      "name": "Theory of Everything & the UFO",
+      "kind": "Main release",
+      "date": "Jan 30, 2014",
+      "iso": "2014-01-30",
+      "year": "2014",
+      "era": "1.x era",
+      "summary": "The UFO form introduced tap-to-flap flying, alongside magenta pads and rings. User levels could be rated Demon for the first time.",
+      "context": "The UFO brought tap-to-flap flight, and Demon difficulty gave the hardest user levels a label.",
+      "facts": [
+        ["Level", "Theory of Everything"],
+        ["Form", "UFO"],
+        ["Objects", "Magenta pad and ring"]
+      ],
+      "tags": ["UFO", "Demon rating"],
+      "notes": [
+        "Theory of Everything added as the twelfth official level.",
+        "The UFO form introduced tap-to-flap flight.",
+        "Magenta pads and rings added to the editor.",
+        "Demon difficulty added for user levels."
+      ],
+      "platform": "iOS, Android",
+      "levels": "Theory of Everything",
+      "forms": "Cube, ship, ball, UFO",
+      "arcade": {
+        "name": "Flight run",
+        "tagline": "The UFO era, translated into a one-button ground course. Keep the rhythm.",
+        "difficulty": "Normal",
+        "speed": 364,
+        "gapMin": 290,
+        "gapMax": 415,
+        "length": 5900,
+        "seed": 15,
+        "accent": "#ffd76a"
+      }
+    },
+    {
+      "slug": "1-6",
+      "label": "1.6",
+      "name": "Electroman Adventures & Clubstep",
+      "kind": "Main release",
+      "date": "Mar 25, 2014",
+      "iso": "2014-03-25",
+      "year": "2014",
+      "era": "1.x era",
+      "summary": "Secret coins were added to every level and Clubstep became the first official Demon. Map packs and destructible blocks rounded out the update.",
+      "context": "Secret coins and Clubstep gave completionists something to chase beyond the main path.",
+      "facts": [
+        ["Levels", "Electroman Adventures, Clubstep"],
+        ["Collectibles", "3 coins per level"],
+        ["New", "Map packs and Demon difficulty"]
+      ],
+      "tags": ["Secret coins", "Map packs", "Demon"],
+      "notes": [
+        "Electroman Adventures and Clubstep added.",
+        "Three secret coins hidden in every official level.",
+        "Map packs collect user levels into ordered challenges.",
+        "Destructible blocks added to the editor."
+      ],
+      "platform": "iOS, Android",
+      "levels": "Electroman Adventures, Clubstep",
+      "forms": "Cube, ship, ball, UFO",
+      "arcade": {
+        "name": "Coin run",
+        "tagline": "A longer course with less breathing room. Clear the line to log a time.",
+        "difficulty": "Normal",
+        "speed": 370,
+        "gapMin": 290,
+        "gapMax": 410,
+        "length": 6100,
+        "seed": 16,
+        "accent": "#f2b85c"
+      }
+    },
+    {
+      "slug": "1-7",
+      "label": "1.7",
+      "name": "Electrodynamix & speed changes",
+      "kind": "Main release",
+      "date": "May 22, 2014",
+      "iso": "2014-05-22",
+      "year": "2014",
+      "era": "1.x era",
+      "summary": "Speed portals brought slow, normal, fast and very fast gameplay, plus new backgrounds, a rainbow trail and glow effects.",
+      "context": "Speed portals let a single level shift pace, and the glow effects made fast sections readable.",
+      "facts": [
+        ["Level", "Electrodynamix"],
+        ["Mechanic", "Speed portals"],
+        ["Cosmetics", "Rainbow trail and glow"]
+      ],
+      "tags": ["Speed", "Glow"],
+      "notes": [
+        "Electrodynamix added as the next official level.",
+        "Speed portals for slow, normal, fast and very fast sections.",
+        "New backgrounds and a rainbow trail.",
+        "Glow effects added to the editor."
+      ],
+      "platform": "iOS, Android",
+      "levels": "Electrodynamix",
+      "forms": "Cube, ship, ball, UFO",
+      "arcade": {
+        "name": "Speed run",
+        "tagline": "A faster course for the update that made speed a mechanic. Stay ahead of the line.",
+        "difficulty": "Normal",
+        "speed": 378,
+        "gapMin": 285,
+        "gapMax": 405,
+        "length": 6200,
+        "seed": 17,
+        "accent": "#e6a64f"
+      }
+    },
+    {
+      "slug": "1-8",
+      "label": "1.8",
+      "name": "Hexagon Force & dual mode",
+      "kind": "Main release",
+      "date": "Aug 7, 2014",
+      "iso": "2014-08-07",
+      "year": "2014",
+      "era": "1.x era",
+      "summary": "Dual portals put two icons on screen at once, while slopes changed how levels could be built. Hexagon Force tied it all together.",
+      "context": "Dual mode ran two icons at once; slopes made the editor feel less like a grid of blocks.",
+      "facts": [
+        ["Level", "Hexagon Force"],
+        ["Mechanic", "Dual mode"],
+        ["Editor", "Slopes"]
+      ],
+      "tags": ["Dual", "Slopes"],
+      "notes": [
+        "Hexagon Force added as the next official level.",
+        "Dual portals put two player icons on screen at once.",
+        "Slopes added to the level editor."
+      ],
+      "platform": "iOS, Android",
+      "levels": "Hexagon Force",
+      "forms": "Cube, ship, ball, UFO, dual",
+      "arcade": {
+        "name": "Dual run",
+        "tagline": "Two rhythms, one button. A course for the update that doubled the screen.",
+        "difficulty": "Normal",
+        "speed": 384,
+        "gapMin": 285,
+        "gapMax": 400,
+        "length": 6300,
+        "seed": 18,
+        "accent": "#ffcc66"
+      }
+    },
+    {
+      "slug": "1-9",
+      "label": "1.9",
+      "name": "Blast Processing & the wave",
+      "kind": "Main release",
+      "date": "Nov 9, 2014",
+      "iso": "2014-11-09",
+      "year": "2014",
+      "era": "1.x era",
+      "summary": "The wave form arrived with two new levels. Editor layers and a 20,000-object limit landed, and the game reached Steam on 22 December 2014.",
+      "context": "The wave added a precision flight pattern, editor layers cleaned up complex builds, and the game reached Steam.",
+      "facts": [
+        ["Levels", "Blast Processing, Theory of Everything 2"],
+        ["Form", "Wave"],
+        ["Platform", "Steam release (Dec 22, 2014)"]
+      ],
+      "tags": ["Wave", "Editor layers", "Steam"],
+      "notes": [
+        "Blast Processing and Theory of Everything 2 added.",
+        "The wave form introduced precision flight controls.",
+        "Editor layers and a 20,000-object limit.",
+        "Geometry Dash released on Steam on 22 December 2014."
+      ],
+      "platform": "iOS, Android, Steam",
+      "levels": "Blast Processing, Theory of Everything 2",
+      "forms": "Cube, ship, ball, UFO, wave, dual",
+      "arcade": {
+        "name": "Wave run",
+        "tagline": "The end of the 1.x era. A tighter course with a smaller margin for error.",
+        "difficulty": "Hard",
+        "speed": 390,
+        "gapMin": 280,
+        "gapMax": 395,
+        "length": 6400,
+        "seed": 19,
+        "accent": "#ffd76a"
+      }
+    },
+    {
+      "slug": "2-0",
+      "label": "2.0",
+      "name": "Geometrical Dominator & Deadlocked",
+      "kind": "Main release",
+      "date": "Aug 26, 2015",
+      "iso": "2015-08-26",
+      "year": "2015",
+      "era": "2.x era",
+      "summary": "The robot form landed with two levels, user coins and moving objects. Accounts gained friends, following and messaging, plus the first secret vault.",
+      "context": "The robot and user coins arrived together, alongside the first steps toward a proper account system.",
+      "facts": [
+        ["Levels", "Geometrical Dominator, Deadlocked"],
+        ["Form", "Robot"],
+        ["New", "User coins and moving objects"]
+      ],
+      "tags": ["Robot", "User coins", "Vault"],
+      "notes": [
+        "Geometrical Dominator and Deadlocked added.",
+        "The robot form introduced a new jump rhythm.",
+        "User coins and moving objects added to the editor.",
+        "Accounts gained friends, following and messaging.",
+        "The first secret vault opened."
+      ],
+      "platform": "iOS, Android, Steam",
+      "levels": "Geometrical Dominator, Deadlocked",
+      "forms": "Cube, ship, ball, UFO, wave, robot, dual",
+      "arcade": {
+        "name": "Robot run",
+        "tagline": "A new decade, a new form. Clear the line to log a 2.0 time.",
+        "difficulty": "Hard",
+        "speed": 398,
+        "gapMin": 280,
+        "gapMax": 390,
+        "length": 6500,
+        "seed": 20,
+        "accent": "#ffe08a"
+      }
+    },
+    {
+      "slug": "2-1",
+      "label": "2.1",
+      "name": "Fingerdash & the spider",
+      "kind": "Main release",
+      "date": "Jan 2017",
+      "iso": "2017-01",
+      "year": "2017",
+      "era": "2.x era",
+      "summary": "The spider form, dash orbs and custom rings arrived, alongside diamonds, the diamond shop and a round of editor improvements.",
+      "context": "The spider and dash orbs changed how players thought about momentum, while diamonds added a second currency.",
+      "facts": [
+        ["Level", "Fingerdash"],
+        ["Form", "Spider"],
+        ["New", "Dash orbs, custom rings, diamonds"]
+      ],
+      "tags": ["Spider", "Orbs", "Diamonds"],
+      "notes": [
+        "Fingerdash added as the next official level.",
+        "The spider form introduced a new movement pattern.",
+        "Dash orbs and custom rings added to the editor.",
+        "Diamonds, the diamond shop and editor improvements."
+      ],
+      "platform": "iOS, Android, Steam",
+      "levels": "Fingerdash",
+      "forms": "Cube, ship, ball, UFO, wave, robot, spider, dual",
+      "arcade": {
+        "name": "Dash run",
+        "tagline": "A course built for quick decisions. The line is the only target.",
+        "difficulty": "Hard",
+        "speed": 406,
+        "gapMin": 278,
+        "gapMax": 385,
+        "length": 6700,
+        "seed": 21,
+        "accent": "#f2b85c"
+      }
+    },
+    {
+      "slug": "2-2",
+      "label": "2.2",
+      "name": "Dash, the swing & Editor 2.0",
+      "kind": "Latest release",
+      "date": "Dec 19, 2023",
+      "iso": "2023-12-19",
+      "year": "2023",
+      "era": "2.x era",
+      "summary": "The biggest update yet: the swing form, Dash, 86 new editor triggers, free-camera controls, platformer mode and Lists. It landed on Steam on 19 December 2023 and on mobile the next day.",
+      "context": "Editor 2.0 was the real event: triggers, camera control, platformer mode and Lists turned the editor into a small engine.",
+      "facts": [
+        ["Level", "Dash"],
+        ["Form", "Swing"],
+        ["Editor", "86 triggers and camera controls"],
+        ["New", "Platformer mode and Lists"]
+      ],
+      "tags": ["Swing", "Editor 2.0", "Platformer", "Lists"],
+      "notes": [
+        "Dash added as the latest official level.",
+        "The swing form introduced a new take on gravity.",
+        "86 new editor triggers and free-camera controls.",
+        "Platformer mode and Lists added to the game.",
+        "Steam release on 19 December 2023; mobile on 20 December."
+      ],
+      "platform": "iOS, Android, Steam",
+      "levels": "Dash",
+      "forms": "Cube, ship, ball, UFO, wave, robot, spider, swing, dual",
+      "arcade": {
+        "name": "Swing run",
+        "tagline": "The latest era, tuned to the fastest course in the archive. Clear the line to log a time.",
+        "difficulty": "Hard",
+        "speed": 414,
+        "gapMin": 275,
+        "gapMax": 380,
+        "length": 7000,
+        "seed": 22,
+        "accent": "#ffd76a"
+      }
+    },
+    {
+      "slug": "lite",
+      "label": "Lite",
+      "name": "The free cut",
+      "kind": "Spin-off edition",
+      "date": "2013",
+      "iso": "2013",
+      "year": "2013",
+      "era": "Spin-off",
+      "summary": "The free cut of the game, with a rotating selection of main levels and its own unlocks.",
+      "context": "A free cut of the game with a rotating sample of main levels, built to let new players try before buying.",
+      "facts": [
+        ["Release", "2013"],
+        ["Price", "Free"],
+        ["Levels", "Rotating main levels"]
+      ],
+      "tags": ["Free edition", "Mobile"],
+      "notes": [
+        "Free edition with a rotating selection of main levels.",
+        "Separate save and unlock path from the paid game.",
+        "Released for mobile in 2013."
+      ],
+      "platform": "iOS, Android",
+      "levels": "Rotating main levels",
+      "forms": "Cube and friends",
+      "official": "https://www.robtopgames.com/",
+      "arcade": {
+        "name": "Lite run",
+        "tagline": "A shorter course for the free edition. Same one-button rules, no purchase required.",
+        "difficulty": "Easy",
+        "speed": 322,
+        "gapMin": 300,
+        "gapMax": 450,
+        "length": 5000,
+        "seed": 30,
+        "accent": "#d9cba7"
+      }
+    },
+    {
+      "slug": "meltdown",
+      "label": "Meltdown",
+      "name": "Three levels, one soundtrack",
+      "kind": "Spin-off edition",
+      "date": "Dec 19, 2015",
+      "iso": "2015-12-19",
+      "year": "2015",
+      "era": "Spin-off",
+      "summary": "Three levels — The Seven Seas, Viking Arena and Airborne Robots — with an F-777 soundtrack.",
+      "context": "A short, free-standing three-level pack with its own soundtrack and a darker visual theme.",
+      "facts": [
+        ["Levels", "The Seven Seas, Viking Arena, Airborne Robots"],
+        ["Soundtrack", "F-777"],
+        ["Released", "Dec 19, 2015"]
+      ],
+      "tags": ["3 levels", "F-777"],
+      "notes": [
+        "Three levels: The Seven Seas, Viking Arena and Airborne Robots.",
+        "Original soundtrack by F-777.",
+        "Standalone release on 19 December 2015."
+      ],
+      "platform": "iOS, Android",
+      "levels": "The Seven Seas, Viking Arena, Airborne Robots",
+      "forms": "Cube, ship, ball, UFO, wave",
+      "official": "https://www.robtopgames.com/",
+      "arcade": {
+        "name": "Meltdown run",
+        "tagline": "A darker, faster course for the three-level spin-off. Clear the line to log a time.",
+        "difficulty": "Normal",
+        "speed": 392,
+        "gapMin": 282,
+        "gapMax": 400,
+        "length": 5800,
+        "seed": 31,
+        "accent": "#e0a95e"
+      }
+    },
+    {
+      "slug": "world",
+      "label": "World",
+      "name": "Ten levels, two worlds",
+      "kind": "Spin-off edition",
+      "date": "Dec 21, 2016",
+      "iso": "2016-12-21",
+      "year": "2016",
+      "era": "Spin-off",
+      "summary": "Ten short levels across two worlds, plus daily levels and an early look at 2.1 features.",
+      "context": "Ten bite-sized levels split across two worlds, with daily challenges and an early look at 2.1.",
+      "facts": [
+        ["Levels", "Ten short levels"],
+        ["Worlds", "Two worlds"],
+        ["New", "Daily levels"]
+      ],
+      "tags": ["Free", "Daily levels"],
+      "notes": [
+        "Ten short levels across two worlds.",
+        "Daily levels added as a recurring challenge.",
+        "Early access to mechanics that would reach 2.1.",
+        "Released on 21 December 2016."
+      ],
+      "platform": "iOS, Android",
+      "levels": "Ten short levels across two worlds",
+      "forms": "Cube, ship, ball, UFO, wave, robot",
+      "official": "https://www.robtopgames.com/",
+      "arcade": {
+        "name": "World run",
+        "tagline": "A quick tour through the World era. One button, one line, one time to beat.",
+        "difficulty": "Normal",
+        "speed": 386,
+        "gapMin": 285,
+        "gapMax": 405,
+        "length": 6000,
+        "seed": 32,
+        "accent": "#cdbfa0"
+      }
+    },
+    {
+      "slug": "subzero",
+      "label": "SubZero",
+      "name": "A three-level teaser",
+      "kind": "Spin-off edition",
+      "date": "Dec 21, 2017",
+      "iso": "2017-12-21",
+      "year": "2017",
+      "era": "Spin-off",
+      "summary": "Press Start, Nock Em and Power Trip — a three-level teaser for the mechanics of 2.2.",
+      "context": "A three-level teaser that put some of 2.2's ideas in players' hands a few years early.",
+      "facts": [
+        ["Levels", "Press Start, Nock Em, Power Trip"],
+        ["Released", "Dec 21, 2017"],
+        ["Teases", "2.2 mechanics"]
+      ],
+      "tags": ["3 levels", "2.2 preview"],
+      "notes": [
+        "Three levels: Press Start, Nock Em and Power Trip.",
+        "A teaser for mechanics that would define 2.2.",
+        "Released on 21 December 2017."
+      ],
+      "platform": "iOS, Android",
+      "levels": "Press Start, Nock Em, Power Trip",
+      "forms": "Cube, ship, ball, UFO, wave, robot, spider",
+      "official": "https://www.robtopgames.com/",
+      "arcade": {
+        "name": "SubZero run",
+        "tagline": "A cold, precise course for the 2017 teaser. Keep the cube moving.",
+        "difficulty": "Hard",
+        "speed": 402,
+        "gapMin": 280,
+        "gapMax": 392,
+        "length": 6200,
+        "seed": 33,
+        "accent": "#bcd0d6"
+      }
+    }
+  ]
+}

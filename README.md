@@ -4,12 +4,32 @@ A lightweight, static Geometry Dash version archive at **[tommy.textnexus.me](ht
 
 ## Pages
 
-- `index.html` — homepage with the full version archive: 13 main Geometry Dash versions (1.0 → 2.2), release dates, levels and headline features, plus the spin-off editions (Lite, Meltdown, World, SubZero).
-- `updates.html` — site release notes, including the launch entry and the reserved ad space.
-- `assets/styles.css` / `assets/site.js` — shared styles and the mobile navigation script.
+- `index.html` — the full version archive: 13 main Geometry Dash versions (1.0 → 2.2), release dates, levels and headline features, plus the spin-off editions (Lite, Meltdown, World, SubZero). Every card opens its release page.
+- `versions/*.html` — one page per release, generated from `data/versions.json`. Each has a release sheet, notes, previous/next navigation, the reserved ad slot and a playable browser course.
+- `updates.html` — site release notes, including the launch, the version pages and the reserved ad space.
+- `assets/styles.css` / `assets/version.css` — the shared TextNexus house style and the version/arcade styles.
+- `assets/site.js` — mobile navigation and footer year.
+- `assets/arcade.js` — the original canvas one-button course used on each version page.
 
-There is also a reserved **ad space** block on each page ("Ad space coming soon") and a
+There is also a reserved **ad space** block on every page ("Ad space coming soon") and a
 **Website made by Nexus · Textnexus.me** credit in the footer.
+
+## The playable course
+
+The courses are original browser tributes written for this site. They use no Geometry Dash
+binaries, artwork or music, and nothing is downloaded. Each release gets its own speed, course
+length and palette; best times are stored locally in the browser.
+
+**No Geometry Dash game files are hosted here.** Geometry Dash and its content belong to RobTop
+Games. Each version page links to the official release.
+
+## Version data & rebuild
+
+Release metadata lives in `data/versions.json`. To regenerate all 17 pages after editing it:
+
+```bash
+python3 scripts/build_versions.py
+```
 
 ## Local preview
 
@@ -29,7 +49,3 @@ This repository is served with GitHub Pages from the `main` branch, root folder.
 - Enable **Enforce HTTPS** once the certificate is issued.
 
 `.nojekyll` is present so the site is served exactly as committed.
-
-## Notes
-
-Fan-made release history. Geometry Dash and its content belong to RobTop Games; no game files are hosted here.
